@@ -868,6 +868,39 @@ section {
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
+.about{
+  height: 160vh;
+}
+.experience{
+  height: 180vh;
+}
+.projects{
+  height: 185vh;
+}
+.col-lg-17{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 49%;
+}
+.col-lg-18{
+  position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 49%;
+}
+.col-lg-19{
+  position: absolute;
+    left: 0px;
+    top: 440px;
+    width: 49%;
+}
+.col-lg-20{
+  position: absolute;
+  top: 440px;
+  left: 50%;
+  width: 49%;
+}*/
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -962,7 +995,7 @@ section {
 }
 .image-container {
   position: relative;
-  width: 600px; /* Set the desired width */
+  width: 100%; /* Set the desired width */
   height: 400px; /* Set the desired height */
   perspective: 1000px;
 }
@@ -999,9 +1032,6 @@ section {
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.5s ease-in-out;
-}
-.move-right{
-  margin-left: 250px;
 }
 
 /* Style for the sides (image and text) */
