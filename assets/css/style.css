@@ -895,6 +895,9 @@ section {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
+  position: absolute; 
+  left:438px;
+  top:440px;
 }
 
 .portfolio .portfolio-item .portfolio-img {
@@ -963,7 +966,33 @@ section {
   height: 400px; /* Set the desired height */
   perspective: 1000px;
 }
-
+.projects{
+  height: 185vh;
+}
+.col-lg-17{
+  position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 49%;
+}
+.col-lg-18{
+  position: absolute;
+    left: 50%;
+    top: 0px;
+    width: 49%;
+}
+.col-lg-19{
+  position: absolute;
+    left: 0px;
+    top: 440px;
+    width: 49%;
+}
+.col-lg-20{
+  position: absolute;
+  top: 440px;
+  left: 50%;
+  width: 49%;
+}
 /* Style for the card (image and text) */
 .card {
   width: 100%;
